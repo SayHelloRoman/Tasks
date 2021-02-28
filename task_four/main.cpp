@@ -21,7 +21,7 @@ int main(){
     fin >> str;
     int number = atoi(str);
 
-    for(int i = 1; i <= 100; i++){
+    for(int i = 1; i <= 1000000000; i++){
         int res = proizvedenie(i);
         if(res == number){
             write = i;
